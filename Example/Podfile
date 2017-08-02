@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PlivoClientVoice_Tests' do
+  pod 'PlivoClientVoice', :path => '../'
+  
+  
+end
