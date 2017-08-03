@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.plivo.com/'
   s.license          = { :type => 'Commercial', :text => "Copyright 2011-2017 Plivo. All rights reserved. Use of this software is subject to the terms and conditions of the Plivo Terms of Service located at https://www.plivo.com/privacy/" }
   s.author           = { 'Plivo' => 'support@plivo.com' }
-  s.source           = { :git => 'https://github.com/SivaPlivo/PlivoClientVoice/blob/master/PlivoVoiceKit.framework.zip', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SivaPlivo/PlivoClientVoice.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'PlivoVoiceKit.framework'
   s.requires_arc          = true
