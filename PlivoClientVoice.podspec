@@ -1,14 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'PlivoClientVoice'
-  s.version          = '0.1.0'
-  s.summary          = 'Plivo Voice SDK'
-  s.description      = 'Make outbound and inbound calls using Plivo Voice SDK'
-  s.homepage         = 'https://github.com/SivaPlivo/PlivoClientVoice'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'siva@plivo.com' => 'siva@plivo.com' }
+  s.version          = '0.1.1'
+  s.summary          = 'Plivo Voice SDK for iOS'
+  s.description      = 'The Plivo iOS SDK allows you to create applications capable of making and receiving calls in your iOS app.'
+  s.homepage         = 'https://www.plivo.com/'
+  s.license          = { :type => 'Commercial', :text => "Copyright 2011-2017 Plivo. All rights reserved. Use of this software is subject to the terms and conditions of the Plivo Terms of Service located at https://www.plivo.com/privacy/" }
+  s.author           = { 'Plivo' => 'support@plivo.com' }
   s.source           = { :git => 'https://github.com/SivaPlivo/PlivoClientVoice.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.source_files = 'PlivoClientVoice/Classes/**/*'
   s.ios.vendored_frameworks = 'PlivoVoiceKit.framework'
-
+  s.requires_arc          = true
 end
