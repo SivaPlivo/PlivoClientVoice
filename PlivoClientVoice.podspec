@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'PlivoClientVoice'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Plivo Voice SDK for iOS'
   s.description      = 'The Plivo iOS SDK allows you to create applications capable of making and receiving calls in your iOS app.'
-  s.homepage         = 'https://www.plivo.com/'
+  s.homepage         = 'http://helpers.plivo.com/'
   s.license          = { :type => 'Commercial', :text => "Copyright 2011-2017 Plivo. All rights reserved. Use of this software is subject to the terms and conditions of the Plivo Terms of Service located at https://www.plivo.com/privacy/" }
   s.author           = { 'Plivo' => 'support@plivo.com' }
   s.source           = { :git => 'http://helpers.plivo.com/ios/plivo-ios-package-2.0.zip', :tag => s.version.to_s }
